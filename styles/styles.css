@@ -2,7 +2,7 @@
     margin: 0px;
 }
 .banner{
-    background-image: url(images/banner/banner3.png);
+    background-image: url(/images/banner/banner3.png);
     background-repeat: no-repeat;
     display: flex;
     text-align: right;
@@ -145,7 +145,7 @@
 
 /* Section 3 styles*/
 .section3{
-    background-image: url(images/watch.png),url(images/gradient1.png);
+    background-image: url(/images/watch.png),url(/images/gradient1.png);
     background-blend-mode: multiply;
     background-repeat: no-repeat;
     margin: 0;
