@@ -1,0 +1,53 @@
+*{
+    font-family: "Open Sans", sans-serif;
+    margin: 0px;
+}
+.header{
+    background-image: url(/images/banner/banner3.png);
+    background-repeat: no-repeat;
+    display: flex;
+    text-align: right;
+    margin: 0px;
+    padding: 216px 230px 364px 845px;
+}
+.banner{
+
+}
+/* Banner Text */
+.banner-title{
+    margin-bottom: 24px;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    text-align: right;
+    color: #FFFFFF;
+}
+.banner-sub-title{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: right;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+}
+/* Contact us button */
+.btn{
+    width: 160px;
+    height: 64px;
+    left: 1210px;
+    top: 578px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #005FAC;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(80, 137, 223);
+}
+.btn:active {
+    background-color: rgb(21, 137, 8);
+}
