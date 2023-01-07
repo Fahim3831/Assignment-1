@@ -1,7 +1,7 @@
-*{
-    font-family: "Open Sans", sans-serif;
+/* *{
+    font-family: " Sans", sans-serif;
     margin: 0px;
-}
+} */
 .banner{
     background-image: url(/images/banner/banner3.png);
     background-repeat: no-repeat;
@@ -10,10 +10,15 @@
     margin-bottom: 0px;
     padding: 216px 230px 131px 845px;
 }
+#phone-img{
+    width: 25px;
+    height: 25px;
+    padding-top: 10px;
+}
 /* Banner Text */
 .banner-title{
     margin-bottom: 24px;
-    font-weight: 700;
+    font-weight: 900;
     font-size: 65px;
     line-height: 76px;
     text-align: right;
@@ -43,6 +48,13 @@
     border: none;
     cursor: pointer;
     margin-bottom: 166px;
+    padding-bottom: 15px;
+}
+.btn img{
+    padding-top: 10px;
+}
+.btn-txt{
+    margin-bottom: 10px;
 }
 .btn:hover{
     background-color: rgb(80, 137, 223);
@@ -106,7 +118,7 @@
     /* margin: 0 200px 0 300px; */
 }
 .s2-icons img{
-    margin-right: 60px;
+    margin-right: 55px;
     cursor: pointer;
     margin-left: 105px;
     padding-bottom: 24px;
@@ -170,6 +182,8 @@
 /* Footer Style */
 footer{
     background: #151414;
+}
+.new-footer{
     display: flex
 }
 .footer{
@@ -241,4 +255,10 @@ footer{
 }
 .input-btn:active {
     background-color: rgb(21, 137, 8);
+}
+.design{
+    color:white;
+    text-align: center;
+    padding-bottom: 10px;
+
 }
